@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class SQRServiceTest {
 
     @Test
-    void notInTheRangeOfNumbers() {
+    void sumOfSquares() {
         SQRService service = new SQRService();
-        int expected = 3;
-        int actual = 3;
+        int expected = 8;
+        int actual = service.sumOfSquares(500, 200);
         Assertions.assertEquals(expected, actual);
     }
 }
