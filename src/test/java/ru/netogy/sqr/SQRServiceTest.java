@@ -10,8 +10,8 @@ class SQRServiceTest {
     @Test
     void sumOfSquares() {
         SQRService service = new SQRService();
-        int expected = 8;
-        int actual = service.sumOfSquares(500, 200);
+        int expected = 10;
+        int actual = service.sumOfSquares(600, 200);
         Assertions.assertEquals(expected, actual);
     }
 }
